@@ -1,0 +1,10 @@
+body {
+    font-size: 15px;
+}
+.wrapper {
+    max-width: 375px;
+    margin: 0 auto;
+}
+header h1, p {
+    color: hsl(300, 43%, 22%);
+}
