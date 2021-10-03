@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 body {
     font-size: 15px;
     font-family: 'Spartan', sans-serif;
@@ -13,11 +18,11 @@ body {
     grid-template-rows: 260px 220px 800px;
     grid-row-gap: 14px;
     padding: 0px 24px;
-    border: 1px solid orange;
+    /*border: 1px solid orange; */
 }
-header, .ratings, .reviews {
+/*header, .ratings, .reviews {
     border: 1px solid black;
-}
+}*/
 header h1, p {
     color: hsl(300, 43%, 22%);
 }
@@ -37,4 +42,30 @@ header h1 {
     background-color: hsl(300, 24%, 96%);
     border-radius: 12px;
     padding: 16px 10px 0px 10px;
+}
+.review {
+    background-color: hsl(300, 43%, 22%);
+    margin: 20px 0px;
+    padding: 20px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+}
+.headingImg {
+    display: inline;
+    float: left;
+}
+.headingInfo {
+    display: inline;
+    float: left;
+    text-align: left;
+    margin-left: 12px;
+}
+.heading img {
+    border-radius: 50%;
+}
+.name {
+    color: hsl(0, 0%, 100%)
+}
+.verifiedBuyer {
+    color: hsl(333, 80%, 67%);
 }
