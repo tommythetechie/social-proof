@@ -37,6 +37,9 @@ header h1 {
     display: grid;
     align-items: center;
     justify-content: center;
+    grid-row-gap: 14px;
+    grid-template-columns: 100%;
+    grid-template-rows: 112px 112px 112px;
 }
 .rating {
     background-color: hsl(300, 24%, 96%);
@@ -49,6 +52,10 @@ header h1 {
     padding: 20px;
     color: hsl(0, 0%, 100%);
     border-radius: 12px;
+}
+.reviews {
+    margin-top: 170px;
+    
 }
 .headingImg {
     display: inline;
@@ -68,4 +75,10 @@ header h1 {
 }
 .verifiedBuyer {
     color: hsl(333, 80%, 67%);
+}
+.stars {
+    display: inline-block;
+    width: 84px;
+    height: 17px;
+    background-image: url('images/icon-star.svg');
 }
