@@ -82,3 +82,29 @@ header h1 {
     height: 17px;
     background-image: url('images/icon-star.svg');
 }
+
+/* Media Queries */
+@media screen and (min-width: 1440px) {
+    
+    .wrapper {
+        min-width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid orangered;
+    }
+    body {
+        background-color: palegreen;
+    }
+    header, .ratings, .reviews {
+        border: 1px solid black;
+    }
+
+    .reviews {
+        display: grid;
+        grid-template-columns: 305px 305px 305px;
+        grid-template-rows: 300px;
+        grid-column-gap: 16px;
+        margin: 0;
+        
+    }
+  }
