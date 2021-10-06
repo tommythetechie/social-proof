@@ -93,7 +93,7 @@ header h1 {
         border: 1px solid orangered;
     }
     body {
-        background-color: palegreen;
+        background-color: #118BD8;
     }
     header, .ratings, .reviews {
         border: 1px solid black;
