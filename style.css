@@ -88,8 +88,7 @@ header h1 {
     
     .wrapper {
         min-width: 1000px;
-        display: flex;
-        flex-wrap: wrap;
+        
         border: 1px solid orangered;
     }
     body {
@@ -98,6 +97,10 @@ header h1 {
     header, .ratings, .reviews {
         border: 1px solid black;
     }
+	header, .ratings {
+		display: inline;
+		width: 400px;
+	}
 
     .reviews {
         display: grid;
