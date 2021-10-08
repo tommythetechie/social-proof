@@ -84,32 +84,54 @@ header h1 {
 }
 
 /* Media Queries */
-/*
+
 @media screen and (min-width: 1440px) {
     
     .wrapper {
-        min-width: 1000px;
-        
-        border: 1px solid orangered;
+		margin-top: 50px;
+        min-width: 1440px;
+		height: 90vh;
+        display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
     }
-    body {
-        background-color: #118BD8;
-    }
-    header, .ratings, .reviews {
-        border: 1px solid black;
-    }
-	header, .ratings {
-		display: inline;
-		width: 400px;
+	header {
+		flex-basis: 35%;
+		text-align: left;
+		
 	}
-
+	.ratings {
+		flex-basis: 50%;
+		
+	}
+	.rating {
+		width: 70%;
+	}
+	.rating:nth-child(2) {
+		position:relative;
+		left: 110px;
+	}
+	.rating:nth-child(3) {
+		position:relative;
+		left: 207px;
+	}
     .reviews {
         display: grid;
-        grid-template-columns: 305px 305px 305px;
-        grid-template-rows: 300px;
-        grid-column-gap: 16px;
+        grid-template-columns: 439px 439px 439px;
+        grid-template-rows: 350px;
+        grid-column-gap: 35px;
         margin: 0;
         
     }
+	.review:nth-child(2) {
+		position:relative;
+		top: 25px;
+	}
+	.review:nth-child(3) {
+		position: relative;
+		top: 50px;
+	}
+
+	
   }
-*/
+
